@@ -1,0 +1,72 @@
+header {
+    /* padding: 10px; */
+    /* background: #02534d; */
+
+    width: 100%;
+    position: fixed;
+    margin-top: 10px;
+    top: 50;
+    border-bottom: 1px solid rgb(207, 226, 207);
+
+    right: 0;
+    left: 0;
+    z-index: 1030;
+
+}
+
+
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.desktop-icon {
+    /* margin-top: 10px; */
+    font-size: 13px
+}
+
+/* .desktop-icon ul{
+    padding: 0;
+    margin: 0;
+} */
+.desktop-icon ul li {
+    list-style-type: none;
+    color: rgb(23, 53, 23);
+    margin-left: 26px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.search input {
+    padding-left: 32px;
+    background-color: #669986;
+    opacity: 0.5;
+}
+
+.search input:hover {
+    background-color: white;
+    /* transition: 0.4s ease-in-out; */
+}
+
+.search i {
+    position: absolute;
+    margin-left: -220px;
+    margin-top: 9px;
+
+}
+
+.menu-icon {
+    display: none;
+}
+@media screen and (min-width:128px) and (max-width:900px){
+    .menu-icon {
+        display: block;
+    }
+    .desktop-icon{
+        display :none;
+    }
+    .logo-container{
+        display:none;
+    }
+}
