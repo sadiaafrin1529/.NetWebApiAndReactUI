@@ -1,0 +1,78 @@
+<!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+<!-- app.component.html -->
+<div class="container-fluid">
+    <!-- Navigation Bar -->
+    <!-- <app-navbar></app-navbar> -->
+
+    <!-- Main Content Area -->
+    <div class="row mt-3">
+        <!-- Sidebar Column -->
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <!-- Sidebar content goes here -->
+                    <button class=" btn btn-success  justify-content-center">Start a Discussion</button>
+                    <div class="card-body">
+                        <!-- Sidebar Menu -->
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#" style=" font-weight: bold;">All Discussions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Column -->
+        <div class="col-md-9">
+
+            <div class="btn-group" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Latest
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+            </div>
+            <div class=" mt-2 d-flex justify-content-between align-items-center p-2 gap-2">
+                <div class="mt-2 d-flex flex-column gap-2">
+                    <div class="d-flex align-items-center">
+                        <div class="position-relative">
+                            <img loading="eager" class="Avatar w-50 rounded-circle"
+                                src="https://x1afc3d87-e1ae-474a-a09f-d32c6a5c9d61-cdn.blomstra.community/avatars/EpKUbLS21forAyZr.png"
+                                alt="">
+                        </div>
+                        <p class="title">Prayer Times Calculations Method</p>
+                    </div>
+                
+                    <div class="d-flex gap-2" style="
+                  margin-left: 55px;
+                  margin-top: -25px;
+                  font-size: 13px;">
+                        <i class="bi bi-reply-fill"></i>
+                        <span style=" font-weight: bold;">Abdullah786</span>
+                        <span> replied 20 days ago</span>
+                    </div>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <div id="main" >
+                        <div  style="background-color:coral;  font-size: 10px;"><i class="bi bi-chat-fill"></i> support</div>
+                        <div style="background-color:lightblue;  font-size: 10px;">AlAdhan API</div>
+                        
+                      </div>
+                    <i class="bi bi-chat"></i>
+                    <p>3</p>
+                </div>
+            </div>
